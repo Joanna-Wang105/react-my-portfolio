@@ -1,0 +1,171 @@
+
+/* Navigation bar */
+.active {
+    /* background: linear-gradient(to right, #A85CD1, #DDA0DD); */
+    background: rgb(255, 226, 189);
+    border-radius: 10px;
+}
+
+.nav-link {
+    font-size: 18px;
+}
+
+.nav-bg {
+    background: rgba(255, 210, 148, 0.217);
+}
+
+/* Home Page */
+.home {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro h1 {
+    font-family: 'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
+    font-size: 50px;
+}
+
+.intro p {
+    font-size: 30px;
+    margin-left: 2%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.social-media-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 2%
+
+}
+
+.social-media-item a {
+    color: rgb(144, 141, 141); 
+    text-decoration: none;
+}
+
+.social-media-item a:hover {
+    color: cornflowerblue; 
+}
+
+img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: 7px 7px #ffaa88;
+
+}
+
+
+/* About Page */
+.about-me {
+    padding-bottom: 30px;
+}
+
+.about-me h1, h4 {
+    margin-left: 2%;
+    padding-top: 1.5%;
+}
+
+.about-me p {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2cm;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Accordion (drop down menu) */
+.accordion {
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+}
+
+.accordion-header {
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.accordion-button {
+    margin-top: 0;
+    font-size: 24px;
+    background-color: rgb(231, 222, 255);
+}
+
+.skill-section {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2%;
+}
+
+.skill-section div {
+    width: 20%;
+}
+
+.each-skill p{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    /* background: #e1cffc; */
+    background: #95a1b0;
+    box-shadow: rgb(6, 31, 115) 5px 8px;
+    line-height: 2cm;
+    width: 200px;
+    border-radius: 30px;
+}
+
+.experience, .certificates {
+    background: rgba(255, 210, 148, 0.217);
+    padding-left: 2%;
+    padding-top: 1.5%;
+    padding-bottom: 1.2%
+}
+
+/* Experiences Page */
+.experience-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 14px;
+}
+
+.experience-type {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 60px;
+    font-size: 14px;        
+}
+
+.experience-des {
+    border-top: 1.2px solid rgb(234, 228, 228);
+    padding-top: 12px;
+}
+
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px; 
+}
+
+/* Certificates Page */
+.cert-name {
+    font-size: 24px;
+}
+
+.cert-btn {
+    background-color: rgb(230, 215, 250);
+}
