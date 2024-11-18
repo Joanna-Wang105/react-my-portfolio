@@ -1,8 +1,21 @@
-# React + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio project! This portfolio showcases my work, skills, and experiences. It's built using **React** for the user interface, **Vite** for fast development and building, and **Bootstrap** for a responsive and modern CSS design.
 
-Currently, two official plugins are available:
+## Usage
+This project contains JSON files to dynamically render experiences and certificates content on the portfolio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Install Dependencies
+To install dependencies, run
+
+```bash
+npm install
+```
+
+### Run Development Server
+To start development server, run
+
+```bash
+npm run dev
+```
+You can view your portfolio at http://localhost:5173/ (the default Vite server URL).
